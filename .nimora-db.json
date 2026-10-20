@@ -1,0 +1,1043 @@
+{
+  "schemaVersion": 4,
+  "users": [
+    {
+      "id": "usr_668151d062c1",
+      "address": "NQ89 N1M0 RADE V0A1 1ET9 8765 4321 0000 2026",
+      "realName": null,
+      "country": null,
+      "onboardedAt": null,
+      "createdAt": "2026-10-20T19:24:41.601Z",
+      "locale": "en",
+      "notificationPrefs": {
+        "orderUpdates": true,
+        "chatMessages": true,
+        "reminders": true
+      },
+      "isAdmin": false,
+      "isBanned": false,
+      "noShowCount": 0,
+      "completedTrades": 0,
+      "balanceNim": 12502,
+      "lastActiveAt": "2026-10-20T19:33:36.226Z"
+    },
+    {
+      "id": "usr_admin_root",
+      "address": "NQ47 JQ20 R4SM 53AY 9Y9F VQKF FMJP Q6AU KURR",
+      "realName": "Nimora Root Admin",
+      "country": "ID",
+      "onboardedAt": "2026-10-18T11:55:13.727Z",
+      "createdAt": "2026-10-18T11:55:13.727Z",
+      "locale": "en",
+      "notificationPrefs": {
+        "orderUpdates": true,
+        "chatMessages": true,
+        "reminders": true
+      },
+      "isAdmin": true,
+      "isBanned": false,
+      "noShowCount": 0,
+      "completedTrades": 50,
+      "balanceNim": 249990,
+      "lastActiveAt": "2026-10-20T19:33:27.028Z"
+    },
+    {
+      "id": "usr_merchant_id_1",
+      "address": "NQ44 RAKA SANT 0S01 ND0N ES1A MKT1 8899 2026",
+      "realName": "Raka Santoso",
+      "country": "ID",
+      "onboardedAt": "2026-10-15T12:24:24.684Z",
+      "createdAt": "2026-10-15T12:24:24.684Z",
+      "locale": "id",
+      "notificationPrefs": {
+        "orderUpdates": true,
+        "chatMessages": true,
+        "reminders": true
+      },
+      "isAdmin": false,
+      "isBanned": false,
+      "noShowCount": 0,
+      "completedTrades": 148,
+      "lastActiveAt": "2026-10-20T19:34:34.075Z",
+      "balanceNim": 50002,
+      "telegramHandle": "raka_nim"
+    },
+    {
+      "id": "usr_merchant_id_2",
+      "address": "NQ19 NAD1 APUT R199 JKT0 0011 2233 4455 2026",
+      "realName": "Nadia Putri",
+      "country": "ID",
+      "onboardedAt": "2026-10-15T12:24:24.684Z",
+      "createdAt": "2026-10-15T12:24:24.684Z",
+      "locale": "id",
+      "notificationPrefs": {
+        "orderUpdates": true,
+        "chatMessages": true,
+        "reminders": true
+      },
+      "isAdmin": false,
+      "isBanned": false,
+      "noShowCount": 0,
+      "completedTrades": 92,
+      "lastActiveAt": "2026-10-15T16:24:24.684Z",
+      "balanceNim": 50000
+    },
+    {
+      "id": "usr_merchant_sg_1",
+      "address": "NQ79 0E1L 1NCT ANS1 NGAP 0REM KT00 1122 2026",
+      "realName": "Wei Ling Tan",
+      "country": "SG",
+      "onboardedAt": "2026-10-15T12:24:24.684Z",
+      "createdAt": "2026-10-15T12:24:24.684Z",
+      "locale": "en",
+      "notificationPrefs": {
+        "orderUpdates": true,
+        "chatMessages": true,
+        "reminders": true
+      },
+      "isAdmin": false,
+      "isBanned": false,
+      "noShowCount": 0,
+      "completedTrades": 176,
+      "lastActiveAt": "2026-10-15T16:24:24.684Z",
+      "balanceNim": 50000
+    },
+    {
+      "id": "usr_merchant_in_1",
+      "address": "NQ13 AARA VSHA RMAM UMBA 11ND 1AMK T998 2026",
+      "realName": "Aarav Sharma",
+      "country": "IN",
+      "onboardedAt": "2026-10-15T12:24:24.684Z",
+      "createdAt": "2026-10-15T12:24:24.684Z",
+      "locale": "hi",
+      "notificationPrefs": {
+        "orderUpdates": true,
+        "chatMessages": true,
+        "reminders": true
+      },
+      "isAdmin": false,
+      "isBanned": false,
+      "noShowCount": 0,
+      "completedTrades": 134,
+      "lastActiveAt": "2026-10-15T16:24:24.684Z",
+      "balanceNim": 50000
+    },
+    {
+      "id": "usr_merchant_gb_1",
+      "address": "NQ74 0L1V ERST ERL1 NGL0 ND0N UKMK T776 2026",
+      "realName": "Oliver Sterling",
+      "country": "GB",
+      "onboardedAt": "2026-10-15T12:24:24.684Z",
+      "createdAt": "2026-10-15T12:24:24.684Z",
+      "locale": "en",
+      "notificationPrefs": {
+        "orderUpdates": true,
+        "chatMessages": true,
+        "reminders": true
+      },
+      "isAdmin": false,
+      "isBanned": false,
+      "noShowCount": 0,
+      "completedTrades": 204,
+      "lastActiveAt": "2026-10-15T16:24:24.684Z",
+      "balanceNim": 50000
+    },
+    {
+      "id": "usr_merchant_us_1",
+      "address": "NQ93 MAR0 NVAL ENCE USA0 1928 3746 5500 2026",
+      "realName": "Marcus Vance",
+      "country": "US",
+      "onboardedAt": "2026-10-15T12:24:24.684Z",
+      "createdAt": "2026-10-15T12:24:24.684Z",
+      "locale": "en",
+      "notificationPrefs": {
+        "orderUpdates": true,
+        "chatMessages": true,
+        "reminders": true
+      },
+      "isAdmin": false,
+      "isBanned": false,
+      "noShowCount": 0,
+      "completedTrades": 215,
+      "lastActiveAt": "2026-10-15T16:24:24.684Z",
+      "balanceNim": 50000
+    },
+    {
+      "id": "usr_merchant_my_1",
+      "address": "NQ98 A1SY AHRZ KLMY 0091 8273 6455 1122 2026",
+      "realName": "Aisyah Razak",
+      "country": "MY",
+      "onboardedAt": "2026-10-15T12:24:24.684Z",
+      "createdAt": "2026-10-15T12:24:24.684Z",
+      "locale": "ms",
+      "notificationPrefs": {
+        "orderUpdates": true,
+        "chatMessages": true,
+        "reminders": true
+      },
+      "isAdmin": false,
+      "isBanned": false,
+      "noShowCount": 0,
+      "completedTrades": 64,
+      "lastActiveAt": "2026-10-15T16:24:24.684Z",
+      "balanceNim": 50000
+    },
+    {
+      "id": "usr_merchant_de_1",
+      "address": "NQ62 LUKA S0E1 ERDE BERL 1N99 8877 6655 2026",
+      "realName": "Lukas Weber",
+      "country": "DE",
+      "onboardedAt": "2026-10-15T12:24:24.684Z",
+      "createdAt": "2026-10-15T12:24:24.684Z",
+      "locale": "de",
+      "notificationPrefs": {
+        "orderUpdates": true,
+        "chatMessages": true,
+        "reminders": true
+      },
+      "isAdmin": false,
+      "isBanned": false,
+      "noShowCount": 0,
+      "completedTrades": 119,
+      "lastActiveAt": "2026-10-15T16:24:24.684Z",
+      "balanceNim": 50000
+    }
+  ],
+  "paymentMethods": [
+    {
+      "id": "pm_id_bca_1",
+      "userId": "usr_merchant_id_1",
+      "country": "ID",
+      "providerCode": "BCA",
+      "providerName": "Bank Central Asia (BCA)",
+      "type": "BANK",
+      "accountName": "Raka Santoso",
+      "accountNumberEncrypted": "b7aece7113b23ed697381499:9be6954b3b20aec5fcf4e5682774234c:4fa7d75bd5be760e4eee",
+      "accountNumberMasked": "84••••8273",
+      "extraFields": {},
+      "isActive": true,
+      "createdAt": "2026-10-15T12:24:24.684Z"
+    },
+    {
+      "id": "pm_id_gopay_1",
+      "userId": "usr_merchant_id_1",
+      "country": "ID",
+      "providerCode": "GOPAY",
+      "providerName": "GoPay",
+      "type": "EWALLET",
+      "accountName": "Raka Santoso",
+      "accountNumberEncrypted": "f4c1c36e6b486ad33209b63b:30b01c992e0bbc8140b9205ef273f9bd:2049004573ada3ee3be8d108",
+      "accountNumberMasked": "08••••0011",
+      "extraFields": {},
+      "isActive": true,
+      "createdAt": "2026-10-15T12:24:24.684Z"
+    },
+    {
+      "id": "pm_id_mandiri_2",
+      "userId": "usr_merchant_id_2",
+      "country": "ID",
+      "providerCode": "MANDIRI",
+      "providerName": "Bank Mandiri",
+      "type": "BANK",
+      "accountName": "Nadia Putri",
+      "accountNumberEncrypted": "847ef787179b39caf4b96146:ba06fc6e199e687f8b2364018e90a8d9:02a6d154ef4db9943cdb2c735d",
+      "accountNumberMasked": "12••••5431",
+      "extraFields": {},
+      "isActive": true,
+      "createdAt": "2026-10-15T12:24:24.684Z"
+    },
+    {
+      "id": "pm_id_dana_2",
+      "userId": "usr_merchant_id_2",
+      "country": "ID",
+      "providerCode": "DANA",
+      "providerName": "DANA",
+      "type": "EWALLET",
+      "accountName": "Nadia Putri",
+      "accountNumberEncrypted": "3548cfbe1f962fcafb45e8e5:33d35c351327ceb92808bd0ef5097382:7ae3b3f18c1b8b55ca9d2d52",
+      "accountNumberMasked": "08••••5544",
+      "extraFields": {},
+      "isActive": true,
+      "createdAt": "2026-10-15T12:24:24.684Z"
+    },
+    {
+      "id": "pm_sg_paynow_1",
+      "userId": "usr_merchant_sg_1",
+      "country": "SG",
+      "providerCode": "PAYNOW",
+      "providerName": "PayNow (Mobile / NRIC)",
+      "type": "EWALLET",
+      "accountName": "Wei Ling Tan",
+      "accountNumberEncrypted": "d9d51c93b0a9f36908a6641d:1612cf880ea1ec3cdaef3a8a4e3830ea:2298cc6560ad6d5e94ed89",
+      "accountNumberMasked": "+6••••9876",
+      "extraFields": {},
+      "isActive": true,
+      "createdAt": "2026-10-15T12:24:24.684Z"
+    },
+    {
+      "id": "pm_in_upi_1",
+      "userId": "usr_merchant_in_1",
+      "country": "IN",
+      "providerCode": "UPI",
+      "providerName": "UPI (Unified Payments Interface)",
+      "type": "EWALLET",
+      "accountName": "Aarav Sharma",
+      "accountNumberEncrypted": "5fb489ac4af6c17dd7d145cb:eac3b7db33cb8d435f28782dc1fa8c4e:d7000d92fad26b5055adac0bf7dfc2f9897d05",
+      "accountNumberMasked": "aa••••axis",
+      "extraFields": {},
+      "isActive": true,
+      "createdAt": "2026-10-15T12:24:24.684Z"
+    },
+    {
+      "id": "pm_gb_fp_1",
+      "userId": "usr_merchant_gb_1",
+      "country": "GB",
+      "providerCode": "FASTER_PAYMENTS",
+      "providerName": "UK Faster Payments",
+      "type": "BANK",
+      "accountName": "Oliver Sterling",
+      "accountNumberEncrypted": "24c020561147a0ff8c7cb2a5:f0fe1ab4952e99eed355bb75511a55f9:ddf833ce2b3391e2fed7e41e93bfd9b863",
+      "accountNumberMasked": "04••••0472",
+      "extraFields": {},
+      "isActive": true,
+      "createdAt": "2026-10-15T12:24:24.684Z"
+    },
+    {
+      "id": "pm_us_zelle_1",
+      "userId": "usr_merchant_us_1",
+      "country": "US",
+      "providerCode": "ZELLE",
+      "providerName": "Zelle",
+      "type": "EWALLET",
+      "accountName": "Marcus Vance",
+      "accountNumberEncrypted": "7099b7917cfefb4a33b8bf54:07b0edcc248a07b72f0f093b511992dc:ae7c7e4d50dca73aba22ff4df81f167f75fab2d1",
+      "accountNumberMasked": "ma••••k.io",
+      "extraFields": {},
+      "isActive": true,
+      "createdAt": "2026-10-15T12:24:24.684Z"
+    },
+    {
+      "id": "pm_my_maybank_1",
+      "userId": "usr_merchant_my_1",
+      "country": "MY",
+      "providerCode": "MAYBANK",
+      "providerName": "Maybank",
+      "type": "BANK",
+      "accountName": "Aisyah Razak",
+      "accountNumberEncrypted": "ddf651b16d97fcd3b148e575:09b5a62795bf0a20d7b72547892d7b3d:4130673b9b3d184c87abf66a",
+      "accountNumberMasked": "51••••3456",
+      "extraFields": {},
+      "isActive": true,
+      "createdAt": "2026-10-15T12:24:24.684Z"
+    },
+    {
+      "id": "pm_de_sepa_1",
+      "userId": "usr_merchant_de_1",
+      "country": "DE",
+      "providerCode": "SEPA_DE",
+      "providerName": "SEPA Bank Transfer (IBAN)",
+      "type": "BANK",
+      "accountName": "Lukas Weber",
+      "accountNumberEncrypted": "b0a893f905aecd0c5d3e5913:53d2f3f814f154030a25e459f7c20793:431aef1d26d959573384b3bbac946adc096f1991ba42",
+      "accountNumberMasked": "DE••••3000",
+      "extraFields": {},
+      "isActive": true,
+      "createdAt": "2026-10-15T12:24:24.684Z"
+    }
+  ],
+  "ads": [
+    {
+      "id": "ad_id_sell_1",
+      "userId": "usr_merchant_id_1",
+      "userRealName": "Raka Santoso",
+      "userCompletedTrades": 148,
+      "userCompletionRate": 99.3,
+      "side": "SELL_NIM",
+      "country": "ID",
+      "fiatCurrency": "IDR",
+      "priceMode": "FIXED",
+      "price": 21.8,
+      "minAmountNim": 500,
+      "maxAmountNim": 50000,
+      "availableNim": 125000,
+      "paymentMethodIds": [
+        "pm_id_bca_1",
+        "pm_id_gopay_1"
+      ],
+      "paymentMethodProviders": [
+        {
+          "code": "BCA",
+          "name": "Bank Central Asia (BCA)",
+          "type": "BANK"
+        },
+        {
+          "code": "GOPAY",
+          "name": "GoPay",
+          "type": "EWALLET"
+        }
+      ],
+      "status": "ACTIVE",
+      "createdAt": "2026-10-15T12:24:24.684Z"
+    },
+    {
+      "id": "ad_id_sell_2",
+      "userId": "usr_merchant_id_2",
+      "userRealName": "Nadia Putri",
+      "userCompletedTrades": 92,
+      "userCompletionRate": 98.5,
+      "side": "SELL_NIM",
+      "country": "ID",
+      "fiatCurrency": "IDR",
+      "priceMode": "FIXED",
+      "price": 21.95,
+      "minAmountNim": 250,
+      "maxAmountNim": 30000,
+      "availableNim": 80000,
+      "paymentMethodIds": [
+        "pm_id_mandiri_2",
+        "pm_id_dana_2"
+      ],
+      "paymentMethodProviders": [
+        {
+          "code": "MANDIRI",
+          "name": "Bank Mandiri",
+          "type": "BANK"
+        },
+        {
+          "code": "DANA",
+          "name": "DANA",
+          "type": "EWALLET"
+        }
+      ],
+      "status": "ACTIVE",
+      "createdAt": "2026-10-15T12:24:24.684Z"
+    },
+    {
+      "id": "ad_id_buy_1",
+      "userId": "usr_merchant_id_1",
+      "userRealName": "Raka Santoso",
+      "userCompletedTrades": 148,
+      "userCompletionRate": 99.3,
+      "side": "BUY_NIM",
+      "country": "ID",
+      "fiatCurrency": "IDR",
+      "priceMode": "FIXED",
+      "price": 21.5,
+      "minAmountNim": 500,
+      "maxAmountNim": 60000,
+      "availableNim": 180000,
+      "paymentMethodIds": [
+        "pm_id_bca_1",
+        "pm_id_gopay_1"
+      ],
+      "paymentMethodProviders": [
+        {
+          "code": "BCA",
+          "name": "Bank Central Asia (BCA)",
+          "type": "BANK"
+        },
+        {
+          "code": "GOPAY",
+          "name": "GoPay",
+          "type": "EWALLET"
+        }
+      ],
+      "status": "ACTIVE",
+      "createdAt": "2026-10-15T12:24:24.684Z"
+    },
+    {
+      "id": "ad_sg_sell_1",
+      "userId": "usr_merchant_sg_1",
+      "userRealName": "Wei Ling Tan",
+      "userCompletedTrades": 176,
+      "userCompletionRate": 99.7,
+      "side": "SELL_NIM",
+      "country": "SG",
+      "fiatCurrency": "SGD",
+      "priceMode": "FIXED",
+      "price": 0.00185,
+      "minAmountNim": 500,
+      "maxAmountNim": 100000,
+      "availableNim": 200000,
+      "paymentMethodIds": [
+        "pm_sg_paynow_1"
+      ],
+      "paymentMethodProviders": [
+        {
+          "code": "PAYNOW",
+          "name": "PayNow (Mobile / NRIC)",
+          "type": "EWALLET"
+        }
+      ],
+      "status": "ACTIVE",
+      "createdAt": "2026-10-15T12:24:24.684Z"
+    },
+    {
+      "id": "ad_in_sell_1",
+      "userId": "usr_merchant_in_1",
+      "userRealName": "Aarav Sharma",
+      "userCompletedTrades": 134,
+      "userCompletionRate": 99.1,
+      "side": "SELL_NIM",
+      "country": "IN",
+      "fiatCurrency": "INR",
+      "priceMode": "FIXED",
+      "price": 0.118,
+      "minAmountNim": 500,
+      "maxAmountNim": 100000,
+      "availableNim": 180000,
+      "paymentMethodIds": [
+        "pm_in_upi_1"
+      ],
+      "paymentMethodProviders": [
+        {
+          "code": "UPI",
+          "name": "UPI (Unified Payments Interface)",
+          "type": "EWALLET"
+        }
+      ],
+      "status": "ACTIVE",
+      "createdAt": "2026-10-15T12:24:24.684Z"
+    },
+    {
+      "id": "ad_gb_sell_1",
+      "userId": "usr_merchant_gb_1",
+      "userRealName": "Oliver Sterling",
+      "userCompletedTrades": 204,
+      "userCompletionRate": 99.8,
+      "side": "SELL_NIM",
+      "country": "GB",
+      "fiatCurrency": "GBP",
+      "priceMode": "FIXED",
+      "price": 0.00108,
+      "minAmountNim": 500,
+      "maxAmountNim": 100000,
+      "availableNim": 220000,
+      "paymentMethodIds": [
+        "pm_gb_fp_1"
+      ],
+      "paymentMethodProviders": [
+        {
+          "code": "FASTER_PAYMENTS",
+          "name": "UK Faster Payments",
+          "type": "BANK"
+        }
+      ],
+      "status": "ACTIVE",
+      "createdAt": "2026-10-15T12:24:24.684Z"
+    },
+    {
+      "id": "ad_us_sell_1",
+      "userId": "usr_merchant_us_1",
+      "userRealName": "Marcus Vance",
+      "userCompletedTrades": 215,
+      "userCompletionRate": 99.8,
+      "side": "SELL_NIM",
+      "country": "US",
+      "fiatCurrency": "USD",
+      "priceMode": "FIXED",
+      "price": 0.00138,
+      "minAmountNim": 1000,
+      "maxAmountNim": 100000,
+      "availableNim": 250000,
+      "paymentMethodIds": [
+        "pm_us_zelle_1"
+      ],
+      "paymentMethodProviders": [
+        {
+          "code": "ZELLE",
+          "name": "Zelle",
+          "type": "EWALLET"
+        }
+      ],
+      "status": "ACTIVE",
+      "createdAt": "2026-10-15T12:24:24.684Z"
+    },
+    {
+      "id": "ad_us_buy_1",
+      "userId": "usr_merchant_us_1",
+      "userRealName": "Marcus Vance",
+      "userCompletedTrades": 215,
+      "userCompletionRate": 99.8,
+      "side": "BUY_NIM",
+      "country": "US",
+      "fiatCurrency": "USD",
+      "priceMode": "FIXED",
+      "price": 0.00135,
+      "minAmountNim": 1000,
+      "maxAmountNim": 100000,
+      "availableNim": 250000,
+      "paymentMethodIds": [
+        "pm_us_zelle_1"
+      ],
+      "paymentMethodProviders": [
+        {
+          "code": "ZELLE",
+          "name": "Zelle",
+          "type": "EWALLET"
+        }
+      ],
+      "status": "ACTIVE",
+      "createdAt": "2026-10-15T12:24:24.684Z"
+    },
+    {
+      "id": "ad_my_sell_1",
+      "userId": "usr_merchant_my_1",
+      "userRealName": "Aisyah Razak",
+      "userCompletedTrades": 64,
+      "userCompletionRate": 98.9,
+      "side": "SELL_NIM",
+      "country": "MY",
+      "fiatCurrency": "MYR",
+      "priceMode": "FIXED",
+      "price": 0.0061,
+      "minAmountNim": 500,
+      "maxAmountNim": 40000,
+      "availableNim": 95000,
+      "paymentMethodIds": [
+        "pm_my_maybank_1"
+      ],
+      "paymentMethodProviders": [
+        {
+          "code": "MAYBANK",
+          "name": "Maybank",
+          "type": "BANK"
+        }
+      ],
+      "status": "ACTIVE",
+      "createdAt": "2026-10-15T12:24:24.684Z"
+    },
+    {
+      "id": "ad_de_sell_1",
+      "userId": "usr_merchant_de_1",
+      "userRealName": "Lukas Weber",
+      "userCompletedTrades": 119,
+      "userCompletionRate": 99.5,
+      "side": "SELL_NIM",
+      "country": "DE",
+      "fiatCurrency": "EUR",
+      "priceMode": "FIXED",
+      "price": 0.00128,
+      "minAmountNim": 1000,
+      "maxAmountNim": 80000,
+      "availableNim": 190000,
+      "paymentMethodIds": [
+        "pm_de_sepa_1"
+      ],
+      "paymentMethodProviders": [
+        {
+          "code": "SEPA_DE",
+          "name": "SEPA Bank Transfer (IBAN)",
+          "type": "BANK"
+        }
+      ],
+      "status": "ACTIVE",
+      "createdAt": "2026-10-15T12:24:24.684Z"
+    }
+  ],
+  "orders": [],
+  "messages": [],
+  "disputes": [],
+  "requests": [],
+  "redPackets": [
+    {
+      "id": "rp_84f0a1ef1bee",
+      "creatorId": "usr_admin_root",
+      "creatorName": "Nimora Root Admin",
+      "creatorAddress": "NQ47 JQ20 R4SM 53AY 9Y9F VQKF FMJP Q6AU KURR",
+      "totalNim": 10,
+      "slots": 5,
+      "mode": "EQUAL",
+      "message": "Test Pack",
+      "status": "ACTIVE",
+      "depositTxHash": "tx_test_dep_123",
+      "refundTxHash": null,
+      "expiresAt": "2026-10-21T19:33:27.024Z",
+      "slug": "rp-f2df7edb",
+      "preallocatedAmounts": [
+        200000,
+        200000,
+        200000,
+        200000,
+        200000
+      ],
+      "claims": [
+        {
+          "id": "clm_997371614593",
+          "packetId": "rp_84f0a1ef1bee",
+          "claimerAddress": "NQ89 N1M0 RADE V0A1 1ET9 8765 4321 0000 2026",
+          "userId": "usr_668151d062c1",
+          "claimerName": "NQ89 N1M0 RA",
+          "amountNim": 2,
+          "payoutTxHash": "0d6dc0fb41d933e2ea62ff329a6bdcee6e4d831bcd9b31b6d61cb5e62c18985e",
+          "status": "PAID",
+          "createdAt": "2026-10-20T19:33:27.037Z"
+        },
+        {
+          "id": "clm_bf72aa5d1159",
+          "packetId": "rp_84f0a1ef1bee",
+          "claimerAddress": "NQ44 RAKA SANT 0S01 ND0N ES1A MKT1 8899 2026",
+          "userId": "usr_merchant_id_1",
+          "claimerName": "Raka Santoso",
+          "amountNim": 2,
+          "payoutTxHash": "3dd87dafb6854c664a61b294b8dcd666c7b2ca7c78dba499e5b413b4f81d09c0",
+          "status": "PAID",
+          "createdAt": "2026-10-20T19:34:34.081Z"
+        }
+      ],
+      "createdAt": "2026-10-20T19:33:27.024Z"
+    }
+  ],
+  "ledger": [
+    {
+      "id": "ldg_293a4294289b",
+      "type": "REDPACKET_PAYOUT",
+      "refType": "REDPACKET",
+      "refId": "rp_84f0a1ef1bee",
+      "amountNim": 2,
+      "fromAddress": "NQ28 RJEY FAVN 1S5R M3VE D7VK EHJ1 R7SL NVCX",
+      "toAddress": "NQ44 RAKA SANT 0S01 ND0N ES1A MKT1 8899 2026",
+      "txHash": "3dd87dafb6854c664a61b294b8dcd666c7b2ca7c78dba499e5b413b4f81d09c0",
+      "blockHeight": 3421893,
+      "createdAt": "2026-10-20T19:34:34.081Z"
+    },
+    {
+      "id": "ldg_c56aa7db6bd1",
+      "type": "REDPACKET_PAYOUT",
+      "refType": "REDPACKET",
+      "refId": "rp_84f0a1ef1bee",
+      "amountNim": 2,
+      "fromAddress": "NQ28 RJEY FAVN 1S5R M3VE D7VK EHJ1 R7SL NVCX",
+      "toAddress": "NQ89 N1M0 RADE V0A1 1ET9 8765 4321 0000 2026",
+      "txHash": "0d6dc0fb41d933e2ea62ff329a6bdcee6e4d831bcd9b31b6d61cb5e62c18985e",
+      "blockHeight": 3421892,
+      "createdAt": "2026-10-20T19:33:27.037Z"
+    },
+    {
+      "id": "ldg_538c05057419",
+      "type": "REDPACKET_DEPOSIT",
+      "refType": "REDPACKET",
+      "refId": "rp_84f0a1ef1bee",
+      "amountNim": 10,
+      "fromAddress": "NQ47 JQ20 R4SM 53AY 9Y9F VQKF FMJP Q6AU KURR",
+      "toAddress": "NQ28 RJEY FAVN 1S5R M3VE D7VK EHJ1 R7SL NVCX",
+      "txHash": "tx_test_dep_123",
+      "blockHeight": 3421891,
+      "createdAt": "2026-10-20T19:33:27.029Z"
+    }
+  ],
+  "auditLogs": [
+    {
+      "id": "aud_ebc0d2ad83ee",
+      "actorId": "usr_merchant_id_1",
+      "actorName": "Raka Santoso",
+      "action": "REDPACKET_CLAIMED",
+      "entity": "RedPacket",
+      "entityId": "rp_84f0a1ef1bee",
+      "meta": {
+        "amountNim": 2,
+        "txHash": "3dd87dafb6854c664a61b294b8dcd666c7b2ca7c78dba499e5b413b4f81d09c0"
+      },
+      "ip": "127.0.0.1",
+      "createdAt": "2026-10-20T19:34:34.081Z"
+    },
+    {
+      "id": "aud_93c1b0e9ccaa",
+      "actorId": "usr_merchant_id_1",
+      "actorName": "Raka Santoso",
+      "action": "USER_LOGIN",
+      "entity": "User",
+      "entityId": "usr_merchant_id_1",
+      "meta": {
+        "address": "NQ44 RAKA SANT 0S01 ND0N ES1A MKT1 8899 2026",
+        "publicKey": "pub_ed25519_test",
+        "isNewUser": false
+      },
+      "ip": "127.0.0.1",
+      "createdAt": "2026-10-20T19:34:34.072Z"
+    },
+    {
+      "id": "aud_45d6db02f39c",
+      "actorId": "usr_merchant_id_1",
+      "actorName": "Raka Santoso",
+      "action": "USER_LOGIN",
+      "entity": "User",
+      "entityId": "usr_merchant_id_1",
+      "meta": {
+        "address": "NQ44 RAKA SANT 0S01 ND0N ES1A MKT1 8899 2026",
+        "publicKey": "pub_ed25519_test",
+        "isNewUser": false
+      },
+      "ip": "127.0.0.1",
+      "createdAt": "2026-10-20T19:33:57.330Z"
+    },
+    {
+      "id": "aud_41955868be55",
+      "actorId": "usr_668151d062c1",
+      "actorName": "NQ89 N1M0 RADE V0A1 1ET9 8765 4321 0000 2026",
+      "action": "USER_LOGIN",
+      "entity": "User",
+      "entityId": "usr_668151d062c1",
+      "meta": {
+        "address": "NQ89 N1M0 RADE V0A1 1ET9 8765 4321 0000 2026",
+        "publicKey": "pub_ed25519_test",
+        "isNewUser": false
+      },
+      "ip": "127.0.0.1",
+      "createdAt": "2026-10-20T19:33:36.224Z"
+    },
+    {
+      "id": "aud_fc3adeed777a",
+      "actorId": "usr_668151d062c1",
+      "actorName": "NQ89 N1M0 RADE V0A1 1ET9 8765 4321 0000 2026",
+      "action": "REDPACKET_CLAIMED",
+      "entity": "RedPacket",
+      "entityId": "rp_84f0a1ef1bee",
+      "meta": {
+        "amountNim": 2,
+        "txHash": "0d6dc0fb41d933e2ea62ff329a6bdcee6e4d831bcd9b31b6d61cb5e62c18985e"
+      },
+      "ip": "127.0.0.1",
+      "createdAt": "2026-10-20T19:33:27.037Z"
+    },
+    {
+      "id": "aud_f3f7f0e65c47",
+      "actorId": "usr_668151d062c1",
+      "actorName": "NQ89 N1M0 RADE V0A1 1ET9 8765 4321 0000 2026",
+      "action": "USER_LOGIN",
+      "entity": "User",
+      "entityId": "usr_668151d062c1",
+      "meta": {
+        "address": "NQ89 N1M0 RADE V0A1 1ET9 8765 4321 0000 2026",
+        "publicKey": "pub_ed25519_test",
+        "isNewUser": false
+      },
+      "ip": "127.0.0.1",
+      "createdAt": "2026-10-20T19:33:27.033Z"
+    },
+    {
+      "id": "aud_b3f7c7d00d40",
+      "actorId": "root_admin",
+      "actorName": "NQ47 JQ20 R4SM 53AY 9Y9F VQKF FMJP Q6AU KURR",
+      "action": "ADMIN_DEMO_WALLET_INITIALIZED",
+      "entity": "DemoSession",
+      "entityId": "usr_admin_root",
+      "meta": {
+        "balanceNim": 250000,
+        "simulated": true
+      },
+      "ip": "127.0.0.1",
+      "createdAt": "2026-10-20T19:33:27.014Z"
+    },
+    {
+      "id": "aud_d10ea6bc0af2",
+      "actorId": "usr_668151d062c1",
+      "actorName": "NQ89 N1M0 RADE V0A1 1ET9 8765 4321 0000 2026",
+      "action": "USER_LOGIN",
+      "entity": "User",
+      "entityId": "usr_668151d062c1",
+      "meta": {
+        "address": "NQ89 N1M0 RADE V0A1 1ET9 8765 4321 0000 2026",
+        "publicKey": "pub_ed25519_1c56",
+        "isNewUser": true
+      },
+      "ip": "127.0.0.1",
+      "createdAt": "2026-10-20T19:24:41.601Z"
+    },
+    {
+      "id": "aud_b51d3e2a48e5",
+      "actorId": "root_admin",
+      "actorName": "NQ47 JQ20 R4SM 53AY 9Y9F VQKF FMJP Q6AU KURR",
+      "action": "ADMIN_DEMO_WALLET_INITIALIZED",
+      "entity": "DemoSession",
+      "entityId": "usr_admin_root",
+      "meta": {
+        "balanceNim": 250000,
+        "simulated": true
+      },
+      "ip": "127.0.0.1",
+      "createdAt": "2026-10-18T12:14:57.898Z"
+    },
+    {
+      "id": "aud_e667ba9fd5ab",
+      "actorId": "root_admin",
+      "actorName": "NQ47 JQ20 R4SM 53AY 9Y9F VQKF FMJP Q6AU KURR",
+      "action": "ADMIN_DEMO_WALLET_INITIALIZED",
+      "entity": "DemoSession",
+      "entityId": "usr_admin_root",
+      "meta": {
+        "balanceNim": 250000,
+        "simulated": true
+      },
+      "ip": "127.0.0.1",
+      "createdAt": "2026-10-18T11:55:18.166Z"
+    },
+    {
+      "id": "aud_bac5d4c25d73",
+      "actorId": "root_admin",
+      "actorName": "NQ47 JQ20 R4SM 53AY 9Y9F VQKF FMJP Q6AU KURR",
+      "action": "ADMIN_DEMO_WALLET_INITIALIZED",
+      "entity": "DemoSession",
+      "entityId": "usr_admin_root",
+      "meta": {
+        "balanceNim": 250000,
+        "simulated": true
+      },
+      "ip": "127.0.0.1",
+      "createdAt": "2026-10-18T11:55:13.728Z"
+    },
+    {
+      "id": "aud_48ba196d8989",
+      "actorId": "root_admin",
+      "actorName": "NQ47 JQ20 R4SM 53AY 9Y9F VQKF FMJP Q6AU KURR",
+      "action": "ADMIN_LOGIN_SUCCESS",
+      "entity": "AdminPanel",
+      "entityId": "root",
+      "meta": {
+        "path": "/api/300210/2026/nimora/panel/only/admin",
+        "method": "PASSWORD",
+        "wallet": "NQ47 JQ20 R4SM 53AY 9Y9F VQKF FMJP Q6AU KURR"
+      },
+      "ip": "127.0.0.1",
+      "createdAt": "2026-10-15T17:00:48.364Z"
+    }
+  ],
+  "banners": [
+    {
+      "id": "bnr_default_p2p",
+      "title": "Zero-Fee Local P2P Escrow Trading",
+      "subtitle": "Buy & sell NIM in your local currency with 30-minute automatic escrow protection.",
+      "imageDataUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201200%20420%22%20width%3D%221200%22%20height%3D%22420%22%3E%0A%20%20%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%20%20%3ClinearGradient%20id%3D%22bg1%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%231F2348%22%20%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%2255%25%22%20stop-color%3D%22%23151836%22%20%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%233a2c0f%22%20%2F%3E%0A%20%20%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%20%20%3ClinearGradient%20id%3D%22gold1%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%220%25%22%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23E9B213%22%20%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23EC991C%22%20%2F%3E%0A%20%20%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%20%20%3Crect%20width%3D%221200%22%20height%3D%22420%22%20fill%3D%22url(%23bg1)%22%20%2F%3E%0A%20%20%20%20%20%20%3Ccircle%20cx%3D%221030%22%20cy%3D%22210%22%20r%3D%22240%22%20fill%3D%22%23E9B213%22%20opacity%3D%220.08%22%20%2F%3E%0A%20%20%20%20%20%20%3Ccircle%20cx%3D%22960%22%20cy%3D%22120%22%20r%3D%22110%22%20fill%3D%22%23EC9B1C%22%20opacity%3D%220.1%22%20%2F%3E%0A%20%20%20%20%20%20%3Cpolygon%20points%3D%22980%2C105%201045%2C105%201078%2C162%201045%2C220%20980%2C220%20947%2C162%22%20fill%3D%22url(%23gold1)%22%20opacity%3D%220.25%22%20%2F%3E%0A%20%20%20%20%20%20%3Cpolygon%20points%3D%221020%2C165%201085%2C165%201118%2C222%201085%2C280%201020%2C280%20987%2C222%22%20fill%3D%22url(%23gold1)%22%20opacity%3D%220.45%22%20%2F%3E%0A%20%20%20%20%3C%2Fsvg%3E",
+      "targetRoute": "/p2p",
+      "isActive": true,
+      "createdAt": "2026-10-15T12:24:24.684Z"
+    },
+    {
+      "id": "bnr_default_redpacket",
+      "title": "Send & Share Multi-Claim NIM Red Packets",
+      "subtitle": "Create Equal or Lucky Random NIM Red Packets funded directly by your Nimiq wallet.",
+      "imageDataUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201200%20420%22%20width%3D%221200%22%20height%3D%22420%22%3E%0A%20%20%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%20%20%3ClinearGradient%20id%3D%22bg2%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%233b1229%22%20%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%2260%25%22%20stop-color%3D%22%231F2348%22%20%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%2311142B%22%20%2F%3E%0A%20%20%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%20%20%3Crect%20width%3D%221200%22%20height%3D%22420%22%20fill%3D%22url(%23bg2)%22%20%2F%3E%0A%20%20%20%20%20%20%3Ccircle%20cx%3D%221020%22%20cy%3D%22210%22%20r%3D%22220%22%20fill%3D%22%23f43f5e%22%20opacity%3D%220.12%22%20%2F%3E%0A%20%20%20%20%20%20%3Ccircle%20cx%3D%22920%22%20cy%3D%22280%22%20r%3D%22140%22%20fill%3D%22%23E9B213%22%20opacity%3D%220.1%22%20%2F%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%22940%22%20y%3D%22110%22%20width%3D%22140%22%20height%3D%22200%22%20rx%3D%2222%22%20fill%3D%22%23e11d48%22%20opacity%3D%220.35%22%20stroke%3D%22%23E9B213%22%20stroke-width%3D%223%22%20%2F%3E%0A%20%20%20%20%20%20%3Ccircle%20cx%3D%221010%22%20cy%3D%22195%22%20r%3D%2226%22%20fill%3D%22%23E9B213%22%20opacity%3D%220.8%22%20%2F%3E%0A%20%20%20%20%3C%2Fsvg%3E",
+      "targetRoute": "/redpacket",
+      "isActive": true,
+      "createdAt": "2026-10-15T12:24:24.684Z"
+    }
+  ],
+  "socialAccounts": [
+    {
+      "id": "soc_x_bot_official",
+      "userId": "usr_merchant_id_1",
+      "platform": "TWITTER",
+      "handle": "rakasantoso",
+      "displayHandle": "@rakasantoso",
+      "verificationCode": "X-RAKA88",
+      "isVerified": true,
+      "verifiedAt": "2026-10-15T12:24:24.684Z",
+      "createdAt": "2026-10-15T12:24:24.684Z"
+    },
+    {
+      "id": "soc_tg_nadia",
+      "userId": "usr_merchant_id_2",
+      "platform": "TELEGRAM",
+      "handle": "nadiaputri",
+      "displayHandle": "@nadiaputri",
+      "verificationCode": "TG-NADIA99",
+      "isVerified": true,
+      "verifiedAt": "2026-10-15T12:24:24.684Z",
+      "createdAt": "2026-10-15T12:24:24.684Z"
+    },
+    {
+      "id": "soc_45a13acf85b1",
+      "userId": "usr_merchant_id_1",
+      "platform": "TELEGRAM",
+      "handle": "raka_nim",
+      "displayHandle": "@raka_nim",
+      "verificationCode": "TG-21544",
+      "isVerified": true,
+      "verifiedAt": "2026-10-20T19:34:34.078Z",
+      "createdAt": "2026-10-20T19:33:57.335Z"
+    }
+  ],
+  "socialTransfers": [],
+  "socialBotConfig": {
+    "twitterCookies": "",
+    "telegramBotToken": "8834505856:AAFzOkTpf7MXL3CbqwzR-E-y61n4N20hOuw",
+    "isListening": true,
+    "autoReply": true
+  },
+  "cashbackConfig": {
+    "isActive": true,
+    "escrowBalanceNim": 250000,
+    "escrowWalletAddress": "NQ47 JQ20 R4SM 53AY 9Y9F VQKF FMJP Q6AU KURR",
+    "minTxAmountNim": 5000,
+    "minCashbackNim": 200,
+    "maxCashbackNim": 5000,
+    "totalPaidOutNim": 3850,
+    "updatedAt": "2026-10-15T12:24:24.684Z"
+  },
+  "cashbackClaims": [
+    {
+      "id": "cb_seed_1",
+      "userId": "usr_merchant_budi",
+      "userAddress": "NQ22 93F4 B4P9 XA21 8234 KL88 9012 3456",
+      "userName": "Budi Santoso",
+      "txType": "P2P_SELL_ORDER",
+      "txReferenceId": "ad_budi_sell_1",
+      "txAmountNim": 12000,
+      "cashbackAmountNim": 1450,
+      "status": "CONFIRMED",
+      "fraudRiskScore": 12,
+      "fraudReasons": [
+        "Established merchant account",
+        "142 completed trades",
+        "Verified banking KYC"
+      ],
+      "adminNotes": "Verified clean trading volume",
+      "txHash": "cb_payout_hash_789123456789abcdef",
+      "confirmedAt": "2026-10-15T12:24:24.684Z",
+      "rejectedAt": null,
+      "createdAt": "2026-10-15T12:24:24.684Z"
+    },
+    {
+      "id": "cb_seed_2",
+      "userId": "usr_merchant_siti",
+      "userAddress": "NQ55 12AB CD34 EF56 GH78 IJ90 KL12 MN34",
+      "userName": "Siti Rahma",
+      "txType": "TIP_TRANSACTION",
+      "txReferenceId": "sctx_demo_tip_1",
+      "txAmountNim": 8000,
+      "cashbackAmountNim": 2400,
+      "status": "CONFIRMED",
+      "fraudRiskScore": 18,
+      "fraudReasons": [
+        "Active social tipper",
+        "Normal tip cadence"
+      ],
+      "adminNotes": "Approved social reward",
+      "txHash": "cb_payout_hash_1234567890abcdef",
+      "confirmedAt": "2026-10-15T12:24:24.684Z",
+      "rejectedAt": null,
+      "createdAt": "2026-10-15T12:24:24.684Z"
+    },
+    {
+      "id": "cb_seed_3",
+      "userId": "usr_merchant_siti",
+      "userAddress": "NQ55 12AB CD34 EF56 GH78 IJ90 KL12 MN34",
+      "userName": "Siti Rahma",
+      "txType": "RED_PACKET",
+      "txReferenceId": "rp_siti_1",
+      "txAmountNim": 6000,
+      "cashbackAmountNim": 820,
+      "status": "PENDING",
+      "fraudRiskScore": 24,
+      "fraudReasons": [
+        "Valid Red Packet deposit locked into escrow",
+        "Normal distribution pattern"
+      ],
+      "adminNotes": null,
+      "txHash": null,
+      "confirmedAt": null,
+      "rejectedAt": null,
+      "createdAt": "2026-10-15T16:24:24.687Z"
+    }
+  ]
+}

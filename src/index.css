@@ -1,0 +1,107 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: 'Plus Jakarta Sans', sans-serif;
+  --font-sans: 'DM Sans', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+
+  --color-navy-50: #f2f3f9;
+  --color-navy-100: #e2e4f2;
+  --color-navy-200: #c8cde7;
+  --color-navy-300: #a2abd6;
+  --color-navy-400: #7783c1;
+  --color-navy-500: #5763ab;
+  --color-navy-600: #444d90;
+  --color-navy-700: #383f75;
+  --color-navy-800: #2e335e;
+  --color-navy-900: #1F2348;
+  --color-navy-950: #11142B;
+
+  --color-gold-50: #fefbe8;
+  --color-gold-100: #fdf5c4;
+  --color-gold-200: #fbe98d;
+  --color-gold-300: #f8d54c;
+  --color-gold-400: #f3c121;
+  --color-gold-500: #E9B213;
+  --color-gold-600: #EC991C;
+  --color-gold-700: #a5640b;
+  --color-gold-800: #874e10;
+  --color-gold-900: #724014;
+  --color-gold-950: #432107;
+}
+
+/* Light Mode Adaptive Palette */
+html:not(.dark) {
+  --color-navy-950: #F4F6FB;
+  --color-navy-900: #FFFFFF;
+  --color-navy-800: #EEF1F8;
+  --color-navy-700: #E2E6F2;
+  --color-slate-800: #E2E8F0;
+  --color-slate-700: #CBD5E1;
+  --color-slate-500: #64748B;
+  --color-slate-400: #475569;
+  --color-slate-300: #334155;
+  --color-slate-200: #1E293B;
+  --color-slate-100: #0F172A;
+  color-scheme: light;
+}
+
+html.dark {
+  color-scheme: dark;
+}
+
+html:not(.dark) body {
+  background-color: #F4F6FB;
+  color: #0F172A;
+}
+
+html:not(.dark) .text-white {
+  color: #0F172A !important;
+}
+
+html:not(.dark) .bg-gradient-to-r .text-white,
+html:not(.dark) .bg-rose-500.text-white,
+html:not(.dark) .banner-overlay-text .text-white {
+  color: #FFFFFF !important;
+}
+
+html:not(.dark) .text-gold-400 {
+  color: #B47804;
+}
+
+html:not(.dark) .text-gold-300 {
+  color: #9A6503;
+}
+
+html:not(.dark) .text-emerald-400 {
+  color: #059669;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-sans);
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1, h2, h3, h4, .font-display {
+    font-family: var(--font-display);
+    text-wrap: balance;
+  }
+
+  .tabular-nums {
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+.pb-safe {
+  padding-bottom: max(1rem, env(safe-area-inset-bottom));
+}
+
+.pt-safe {
+  padding-top: max(0.75rem, env(safe-area-inset-top));
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}

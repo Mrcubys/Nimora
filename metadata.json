@@ -1,0 +1,6 @@
+{
+  "name": "Nimora — Nimiq Pay Local P2P, Requests & Red Packets",
+  "description": "Local P2P trading with platform escrow, instant NIM payment requests, and multi-claim Red Packets for Nimiq Pay.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

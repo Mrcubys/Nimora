@@ -1,0 +1,279 @@
+// Complete Prisma Schema for Nimora (PostgreSQL + Prisma)
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+enum PaymentMethodType {
+  BANK
+  EWALLET
+}
+
+enum AdSide {
+  SELL_NIM
+  BUY_NIM
+}
+
+enum PriceMode {
+  FIXED
+  MARKET_MARGIN
+}
+
+enum AdStatus {
+  ACTIVE
+  PAUSED
+  CLOSED
+}
+
+enum OrderStatus {
+  CREATED
+  AWAITING_DEPOSIT
+  CRYPTO_LOCKED
+  AWAITING_PAYMENT
+  PAYMENT_SUBMITTED
+  COMPLETED
+  CANCELLED
+  EXPIRED
+  DISPUTED
+  RESOLVED_RELEASED
+  RESOLVED_REFUNDED
+}
+
+enum MessageType {
+  TEXT
+  IMAGE
+  SYSTEM
+  PAYMENT_REMINDER
+}
+
+enum DisputeStatus {
+  OPEN
+  UNDER_REVIEW
+  RESOLVED_RELEASE
+  RESOLVED_REFUND
+}
+
+enum RequestStatus {
+  OPEN
+  PAID
+  EXPIRED
+  CANCELLED
+}
+
+enum RedPacketMode {
+  EQUAL
+  RANDOM
+}
+
+enum RedPacketStatus {
+  PENDING_DEPOSIT
+  ACTIVE
+  FINISHED
+  EXPIRED
+  REFUNDED
+}
+
+enum ClaimStatus {
+  PENDING
+  PAID
+  FAILED
+}
+
+enum LedgerEntryType {
+  ESCROW_DEPOSIT
+  ESCROW_RELEASE
+  ESCROW_REFUND
+  REDPACKET_DEPOSIT
+  REDPACKET_PAYOUT
+  REDPACKET_REFUND
+  REQUEST_PAYMENT
+}
+
+model User {
+  id                String          @id @default(cuid())
+  address           String          @unique
+  realName          String?
+  country           String?         // ISO-3166 alpha-2 (immutable once set)
+  onboardedAt       DateTime?
+  createdAt         DateTime        @default(now())
+  locale            String          @default("en")
+  notificationPrefs Json            @default("{\"orderUpdates\":true,\"chatMessages\":true,\"reminders\":true}")
+  isAdmin           Boolean         @default(false)
+  isBanned          Boolean         @default(false)
+  noShowCount       Int             @default(0)
+  completedTrades   Int             @default(0)
+  paymentMethods    PaymentMethod[]
+  ads               P2PAd[]
+  sellOrders        P2POrder[]      @relation("SellerOrders")
+  buyOrders         P2POrder[]      @relation("BuyerOrders")
+  requests          PaymentRequest[]
+  redPackets        RedPacket[]
+  claims            RedPacketClaim[]
+}
+
+model PaymentMethod {
+  id            String            @id @default(cuid())
+  userId        String
+  user          User              @relation(fields: [userId], references: [id])
+  country       String
+  providerCode  String
+  providerName  String
+  type          PaymentMethodType
+  accountName   String
+  accountNumber String            // Encrypted at rest
+  extraFields   Json?             // Encrypted JSON
+  isActive      Boolean           @default(true)
+  createdAt     DateTime          @default(now())
+}
+
+model P2PAd {
+  id               String     @id @default(cuid())
+  userId           String
+  user             User       @relation(fields: [userId], references: [id])
+  side             AdSide
+  country          String
+  fiatCurrency     String
+  priceMode        PriceMode  @default(FIXED)
+  price            Float
+  minAmountNim     Float
+  maxAmountNim     Float
+  availableNim     Float
+  paymentMethodIds String[]
+  status           AdStatus   @default(ACTIVE)
+  createdAt        DateTime   @default(now())
+  orders           P2POrder[]
+}
+
+model P2POrder {
+  id                    String         @id @default(cuid())
+  adId                  String
+  ad                    P2PAd          @relation(fields: [adId], references: [id])
+  sellerId              String
+  seller                User           @relation("SellerOrders", fields: [sellerId], references: [id])
+  buyerId               String
+  buyer                 User           @relation("BuyerOrders", fields: [buyerId], references: [id])
+  country               String
+  amountNim             Float
+  fiatAmount            Float
+  fiatCurrency          String
+  priceSnapshot         Float
+  paymentMethodSnapshot Json
+  status                OrderStatus    @default(AWAITING_DEPOSIT)
+  cancelReason          String?
+  escrowAddress         String
+  depositTxHash         String?
+  releaseTxHash         String?
+  refundTxHash          String?
+  depositDeadline       DateTime
+  paymentDeadline       DateTime?
+  confirmDeadline       DateTime?
+  paymentProofUrl       String?
+  createdAt             DateTime       @default(now())
+  updatedAt             DateTime       @updatedAt
+  messages              OrderMessage[]
+  disputes              Dispute[]
+}
+
+model OrderMessage {
+  id             String      @id @default(cuid())
+  orderId        String
+  order          P2POrder    @relation(fields: [orderId], references: [id])
+  senderId       String?     // null for SYSTEM messages
+  type           MessageType @default(TEXT)
+  body           String
+  attachmentUrl  String?
+  attachmentMime String?
+  replyToId      String?
+  readAt         DateTime?
+  reported       Boolean     @default(false)
+  createdAt      DateTime    @default(now())
+}
+
+model Dispute {
+  id             String        @id @default(cuid())
+  orderId        String
+  order          P2POrder      @relation(fields: [orderId], references: [id])
+  openedById     String
+  reason         String
+  evidence       Json
+  status         DisputeStatus @default(OPEN)
+  adminId        String?
+  resolutionNote String?
+  resolvedAt     DateTime?
+  createdAt      DateTime      @default(now())
+}
+
+model PaymentRequest {
+  id            String        @id @default(cuid())
+  creatorId     String
+  creator       User          @relation(fields: [creatorId], references: [id])
+  amountNim     Float?
+  note          String
+  status        RequestStatus @default(OPEN)
+  paidByAddress String?
+  paidTxHash    String?
+  expiresAt     DateTime
+  slug          String        @unique
+  createdAt     DateTime      @default(now())
+}
+
+model RedPacket {
+  id                  String           @id @default(cuid())
+  creatorId           String
+  creator             User             @relation(fields: [creatorId], references: [id])
+  totalNim            Float
+  slots               Int
+  mode                RedPacketMode
+  message             String
+  status              RedPacketStatus  @default(PENDING_DEPOSIT)
+  depositTxHash       String?
+  expiresAt           DateTime
+  slug                String           @unique
+  preallocatedAmounts Json             // integer luna array
+  createdAt           DateTime         @default(now())
+  claims              RedPacketClaim[]
+}
+
+model RedPacketClaim {
+  id             String      @id @default(cuid())
+  packetId       String
+  packet         RedPacket   @relation(fields: [packetId], references: [id])
+  claimerAddress String
+  userId         String
+  user           User        @relation(fields: [userId], references: [id])
+  amountNim      Float
+  payoutTxHash   String?
+  status         ClaimStatus @default(PAID)
+  createdAt      DateTime    @default(now())
+
+  @@unique([packetId, claimerAddress])
+  @@unique([packetId, userId])
+}
+
+model LedgerEntry {
+  id          String          @id @default(cuid())
+  type        LedgerEntryType
+  refType     String
+  refId       String
+  amountNim   Float
+  fromAddress String
+  toAddress   String
+  txHash      String          @unique
+  blockHeight Int
+  createdAt   DateTime        @default(now())
+}
+
+model AuditLog {
+  id        String   @id @default(cuid())
+  actorId   String
+  action    String
+  entity    String
+  entityId  String
+  meta      Json
+  ip        String
+  createdAt DateTime @default(now())
+}
