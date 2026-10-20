@@ -34,15 +34,7 @@ The full-stack Express + WebSocket + Vite server runs on `http://0.0.0.0:3000`.
 
 ---
 
-## 2. Restricted Admin Panel
-
-The platform includes a dedicated, isolated administrator console for user management, real-time WebSocket activity monitoring, escrow reconciliation, kill-switch control, and dispute resolution:
-- **URL Path**: `/api/300210/2026/nimora/panel/only/admin`
-- **Password**: `@Raffathoriq010228`
-
----
-
-## 3. OpenAPI-Style API Surface
+## 2. OpenAPI-Style API Surface
 
 - `POST /api/auth/challenge` & `POST /api/auth/verify` & `POST /api/auth/logout`
 - `GET /api/regions` & `GET /api/regions/:country/payment-methods`
@@ -58,7 +50,7 @@ The platform includes a dedicated, isolated administrator console for user manag
 
 ---
 
-## 4. Security & Threat Model
+## 3. Security & Threat Model
 
 | Threat Vector | Mitigation Implemented |
 |---|---|
